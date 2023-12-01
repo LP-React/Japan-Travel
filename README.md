@@ -1,5 +1,5 @@
 # [Japan Travel](https://lp-react.github.io/Japan-Travel/)
-[![Japan Travel](Japan-Travel.gif)](https://lp-react.github.io/Japan-Travel/)
+[![Japan Travel](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzg3bWc4MHhkMGE2b3Q0MTA0ejBlZDY5eWNkNDkzM2N4ZzA3eGp3eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bfEcicYRJVqcKXRB68/giphy.gif)](https://lp-react.github.io/Japan-Travel/)
 ## 📖 Resumen 📖
 
 **"Japan Travel"** es un sitio web que brinda información sobre las atracciones turísticas, hoteles y restaurantes de Japón. El sitio web está diseñado para ser una herramienta útil para los turistas que planean un viaje a Japón, así como para los residentes de Japón que desean aprender más sobre su país. 
