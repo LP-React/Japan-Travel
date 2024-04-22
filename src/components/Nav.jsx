@@ -1,28 +1,48 @@
 import React from 'react'
 
 export const Nav = () => {
+
+    const Logo = () => {
+        return (
+            <div class="nav__logo">
+                <a class="link" href="#hero">
+                    <img src="./src/assets/Icons/Loge.png" alt="japan_tourism" class="logo" />
+                    <span class="nav__logo__span">日本観光</span>
+                </a>
+            </div>
+        )
+    };
+
+    const NavLink = ({ href, text }) => {
+        return (
+            <li class="nav__links__ul__li">
+                <a href={href} class="link">{text}</a>
+            </li>
+        )
+    }
+
+    const LanguageOption = ({ href, text }) => {
+        return (
+            <a href={href} className="link nav__language__option">{text}</a>
+        )
+    };
+
     return (
         <>
             <div class="container__nav">
                 <nav class="nav">
-                    <div class="nav__logo" data-aos="fade-down">
-                        <a class="link" href="#hero">
-                            <img src="./src/assets/Icons/Loge.png" alt="japan_tourism" class="logo"/>
-                                <span class="nav__logo__span">日本観光</span></a>
-                    </div>
-                    <ul class="nav__links__ul" data-aos="fade-down">
-                        <li class="nav__links__ul__li"><a href="#hero" class="link">Home</a></li>
-                        <li class="nav__links__ul__li"><a href="https://alljapantours.com" class="link"
-                            target="_blank">Tours</a></li>
-                        <li class="nav__links__ul__li"><a href="https://www.galleryjapan.com/locale/ja_JP/" class="link"
-                            target="_blank">Gallery</a></li>
-                        <li class="nav__links__ul__li"><a href="./src/pages/toDo.html" class="link">Reviews</a></li>
-                        <li class="nav__links__ul__li"><a href="./src/pages/toDo.html" class="link">About Us</a></li>
-                        <li class="nav__links__ul__li"><a href="./src/pages/toDo.html" class="link">Contact</a></li>
+                    <Logo />
+                    <ul class="nav__links__ul">
+                        <NavLink href="#hero" text="Home" />
+                        <NavLink href="https://alljapantours.com" text="Tours" />
+                        <NavLink href="https://www.galleryjapan.com/locale/ja_JP/" text="Gallery" />
+                        <NavLink href="./src/pages/toDo.html" text="Reviews" />
+                        <NavLink href="./src/pages/toDo.html" text="About Us" />
+                        <NavLink href="./src/pages/toDo.html" text="Contact" />
                     </ul>
-                    <div class="nav__language" data-aos="fade-down">
-                        <a href="index.html" class="link nav__language__option">EN</a>
-                        <a href="pages/indexES.html" class="link nav__language__option">ES</a>
+                    <div class="nav__language">
+                        <LanguageOption href="index.html" text="EN" />
+                        <LanguageOption href="pages/indexES.html" text="ES" />
                     </div>
                 </nav>
             </div>

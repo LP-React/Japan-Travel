@@ -127,7 +127,7 @@ body {
     width: 65px;
 }
 
-.information__option__tittle {
+.information__option__title {
     color: var(--tittleColor);
     font-weight: 400;
     margin: 10px 0px 5px;
