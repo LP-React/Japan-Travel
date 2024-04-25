@@ -6,7 +6,7 @@ export const Nav = () => {
         return (
             <div class="nav__logo">
                 <a class="link" href="#hero">
-                    <img src="./src/assets/Icons/Loge.png" alt="japan_tourism" class="logo" />
+                    <img src="./../assets/Icons/Loge.png" alt="japan_tourism" class="logo" />
                     <span class="nav__logo__span">日本観光</span>
                 </a>
             </div>
@@ -36,9 +36,9 @@ export const Nav = () => {
                         <NavLink href="#hero" text="Home" />
                         <NavLink href="https://alljapantours.com" text="Tours" />
                         <NavLink href="https://www.galleryjapan.com/locale/ja_JP/" text="Gallery" />
-                        <NavLink href="./src/pages/toDo.html" text="Reviews" />
-                        <NavLink href="./src/pages/toDo.html" text="About Us" />
-                        <NavLink href="./src/pages/toDo.html" text="Contact" />
+                        <NavLink href="./../pages/toDo.html" text="Reviews" />
+                        <NavLink href="./../pages/toDo.html" text="About Us" />
+                        <NavLink href="./../pages/toDo.html" text="Contact" />
                     </ul>
                     <div class="nav__language">
                         <LanguageOption href="index.html" text="EN" />

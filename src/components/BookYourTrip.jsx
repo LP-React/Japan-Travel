@@ -34,7 +34,7 @@ export const BookYourTrip = () => {
                 </div>
 
                 <div className='bookTrip__img'>
-                    <img src='./src/assets/img/nook.jpg' alt='' />
+                    <img src='./..//assets/img/nook.jpg' alt='' />
                 </div>
             </div>
         </div>
