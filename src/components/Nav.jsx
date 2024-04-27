@@ -6,7 +6,7 @@ export const Nav = () => {
         return (
             <div class="nav__logo">
                 <a class="link" href="#hero">
-                    <img src="./../src/assets/Icons/Loge.png" alt="japan_tourism" class="logo" />
+                    <img src="./assets/Icons/Loge.png" alt="japan_tourism" class="logo" />
                     <span class="nav__logo__span">日本観光</span>
                 </a>
             </div>

@@ -3,11 +3,11 @@ import React from 'react'
 export const Top10Japan = () => {
 
     const sectionImages = [
-        { src: "./../src/assets/top10/image 8.png", alt: "Section 1" },
-        { src: "./../src/assets/top10/image 11.png", alt: "Section 2" },
-        { src: "./../src/assets/top10/image 4.png", alt: "Section 3" },
-        { src: "./../src/assets/top10/image 11-1.png", alt: "Section 4" },
-        { src: "./../src/assets/top10/image 12.png", alt: "Section 5" }
+        { src: "./assets/top10/image 8.png", alt: "Section 1" },
+        { src: "./assets/top10/image 11.png", alt: "Section 2" },
+        { src: "./assets/top10/image 4.png", alt: "Section 3" },
+        { src: "./assets/top10/image 11-1.png", alt: "Section 4" },
+        { src: "./assets/top10/image 12.png", alt: "Section 5" }
     ];
 
     return (

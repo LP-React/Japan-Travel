@@ -3,12 +3,12 @@ import React from 'react'
 export const ExploreByInterest = () => {
 
     const galleryImages = [
-        './../src/assets/galley/Rectangle 12-1.png',
-        './../src/assets/galley/Rectangle 15.png',
-        './../src/assets/galley/Rectangle 12-3.png',
-        './../src/assets/galley/Rectangle 12.png',
-        './../src/assets/galley/Rectangle 13.png',
-        './../src/assets/galley/Rectangle 14.png'
+        'Rectangle 12-1.png',
+        'Rectangle 15.png',
+        'Rectangle 12-3.png',
+        'Rectangle 12.png',
+        'Rectangle 13.png',
+        'Rectangle 14.png'
     ];
 
     const interestOptions = [
@@ -51,12 +51,12 @@ export const ExploreByInterest = () => {
                 <div class='exploreInterest__gallery'>
                     <div class='background'>
                         <div class='background background__circle'></div>
-                        <img src='./../src/assets/galley/image 24.png' alt='' class='background__image' />
+                        <img src='./assets/gallery/image 24.png' alt='' class='background__image' />
                     </div>
 
                     {galleryImages.map((image, index) => (
                         <div className='exploreInterest__gallery__image' key={index}>
-                            <img src={image} alt='' />
+                            <img src={`./assets/gallery/${image}`} alt='' />
                         </div>
                     ))}
                 </div>
