@@ -6,7 +6,7 @@ export const Nav = () => {
         return (
             <div class="nav__logo">
                 <a class="link" href="#hero">
-                    <img src="./../assets/Icons/Loge.png" alt="japan_tourism" class="logo" />
+                    <img src="./../src/assets/Icons/Loge.png" alt="japan_tourism" class="logo" />
                     <span class="nav__logo__span">日本観光</span>
                 </a>
             </div>
@@ -21,11 +21,21 @@ export const Nav = () => {
         )
     }
 
+    const navLinks = [
+        { href: '#hero', text: 'Home' },
+        { href: '', text: 'Gallery' },
+        { href: '', text: 'Reviews' },
+        { href: '', text: 'About Us' },
+        { href: '', text: 'Contact' },
+    ]
+
     const LanguageOption = ({ href, text }) => {
         return (
             <a href={href} className="link nav__language__option">{text}</a>
         )
     };
+
+
 
     return (
         <>
@@ -33,16 +43,17 @@ export const Nav = () => {
                 <nav class="nav">
                     <Logo />
                     <ul class="nav__links__ul">
-                        <NavLink href="#hero" text="Home" />
-                        <NavLink href="https://alljapantours.com" text="Tours" />
-                        <NavLink href="https://www.galleryjapan.com/locale/ja_JP/" text="Gallery" />
-                        <NavLink href="./../pages/toDo.html" text="Reviews" />
-                        <NavLink href="./../pages/toDo.html" text="About Us" />
-                        <NavLink href="./../pages/toDo.html" text="Contact" />
+                        {
+                            navLinks.map((link, index) => {
+                                return (
+                                    <NavLink href={link.href} key={index} text={link.text}/>
+                                )
+                            })
+                        }
                     </ul>
                     <div class="nav__language">
-                        <LanguageOption href="index.html" text="EN" />
-                        <LanguageOption href="pages/indexES.html" text="ES" />
+                        <LanguageOption href="" text="EN" />
+                        <LanguageOption href="" text="ES" />
                     </div>
                 </nav>
             </div>

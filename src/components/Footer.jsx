@@ -14,11 +14,11 @@ export const Footer = () => {
     ]
 
     const optionContact = [
-        { src: "./../assets/Icons/telefono.png", alt: "icon_telefono", text: "+51 000 000 000" },
-        { src: "./../assets/Icons/whatsapp.png", alt: "icon_whatsapp", text: "+51 000 000 000" },
-        { src: "./../assets/Icons/instagram.png", alt: "icon_instagram", text: "@japan.tourism" },
-        { src: "./../assets/Icons/youtube.png", alt: "icon_youtube", text: "Japan Tourism" },
-        { src: "./../assets/Icons/correo-electronico.png", alt: "icon_correo", text: "jp.tourism@gmail.com" }
+        { src: "./../src/assets/Icons/telefono.png", alt: "icon_telefono", text: "+51 000 000 000" },
+        { src: "./../src/assets/Icons/whatsapp.png", alt: "icon_whatsapp", text: "+51 000 000 000" },
+        { src: "./../src/assets/Icons/instagram.png", alt: "icon_instagram", text: "@japan.tourism" },
+        { src: "./../src/assets/Icons/youtube.png", alt: "icon_youtube", text: "Japan Tourism" },
+        { src: "./../src/assets/Icons/correo-electronico.png", alt: "icon_correo", text: "jp.tourism@gmail.com" }
     ]
 
     const LinksLi = ({ href, text }) => (
@@ -37,7 +37,7 @@ export const Footer = () => {
     return (
         <div className="container__footer">
             <footer className="footer">
-                <img src="./../assets/Icons/Loge.png" alt="" className="logo logo--footer" />
+                <img src="./../src/assets/Icons/Loge.png" alt="" className="logo logo--footer" />
 
                 <div className="footer__links">
                     <ul className="links__ul">

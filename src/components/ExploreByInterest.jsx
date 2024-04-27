@@ -3,23 +3,23 @@ import React from 'react'
 export const ExploreByInterest = () => {
 
     const galleryImages = [
-        './../assets/galley/Rectangle 12-1.png',
-        './../assets/galley/Rectangle 15.png',
-        './../assets/galley/Rectangle 12-3.png',
-        './../assets/galley/Rectangle 12.png',
-        './../assets/galley/Rectangle 13.png',
-        './../assets/galley/Rectangle 14.png'
+        './../src/assets/galley/Rectangle 12-1.png',
+        './../src/assets/galley/Rectangle 15.png',
+        './../src/assets/galley/Rectangle 12-3.png',
+        './../src/assets/galley/Rectangle 12.png',
+        './../src/assets/galley/Rectangle 13.png',
+        './../src/assets/galley/Rectangle 14.png'
     ];
 
     const interestOptions = [
-        { href: 'https://www.japan.travel/en/things-to-do/attraction/', text: 'Japan Attractions' },
-        { href: 'https://www.japan.travel/en/things-to-do/culture/', text: 'Culture in Japan' },
-        { href: 'https://www.japan.travel/en/things-to-do/eat-and-drink/', text: 'Food and Drinks' },
-        { href: 'https://www.japan.travel/en/things-to-do/shopping/', text: 'Shopping in Japan' },
-        { href: 'https://www.japan.travel/en/things-to-do/action-and-adventure/', text: 'Action and Adventure in Japan' },
-        { href: 'https://www.japan.travel/en/things-to-do/festivals-and-events/', text: 'Festival and Events in Japan' },
-        { href: 'https://www.japan.travel/national-parks/', text: 'National Parks' },
-        { href: 'https://www.japan.travel/en/things-to-do/art-and-design/', text: 'Art and Design in Japan' }
+        { href: '', text: 'Japan Attractions' },
+        { href: '', text: 'Culture in Japan' },
+        { href: '', text: 'Food and Drinks' },
+        { href: '', text: 'Shopping in Japan' },
+        { href: '', text: 'Action and Adventure in Japan' },
+        { href: '', text: 'Festival and Events in Japan' },
+        { href: '', text: 'National Parks' },
+        { href: '', text: 'Art and Design in Japan' }
     ];
 
     const InterestLink = ({ href, text }) => (
@@ -51,7 +51,7 @@ export const ExploreByInterest = () => {
                 <div class='exploreInterest__gallery'>
                     <div class='background'>
                         <div class='background background__circle'></div>
-                        <img src='./../assets/galley/image 24.png' alt='' class='background__image' />
+                        <img src='./../src/assets/galley/image 24.png' alt='' class='background__image' />
                     </div>
 
                     {galleryImages.map((image, index) => (

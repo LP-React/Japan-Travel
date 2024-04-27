@@ -4,7 +4,7 @@ export const Information = () => {
 
     const options = [
         {
-            icon: "./../assets/Icons/visa.png",
+            icon: "./../src/assets/Icons/visa.png",
             title: "Visa Information",
             links: [
                 { url: "https://www.japan.travel/en/plan/embassies/", text: "Embassies" },
@@ -12,7 +12,7 @@ export const Information = () => {
             ]
         },
         {
-            icon: "./../assets/Icons/cama.png",
+            icon: "./../src/assets/Icons/cama.png",
             title: "Where to Stay",
             links: [
                 { url: "https://www.japan.travel/en/online-reservation-sites/", text: "Hotels" },
@@ -20,7 +20,7 @@ export const Information = () => {
             ]
         },
         {
-            icon: "./../assets/Icons/avion.png",
+            icon: "./../src/assets/Icons/avion.png",
             title: "Airport Access",
             links: [
                 { url: "https://www.japan.travel/en/plan/airport-access/haneda-airport/", text: "Haneda Airport" },
@@ -28,7 +28,7 @@ export const Information = () => {
             ]
         },
         {
-            icon: "./../assets/Icons/huellas.png",
+            icon: "./../src/assets/Icons/huellas.png",
             title: "Getting Around",
             links: [
                 { url: "https://www.japan.travel/en/plan/getting-around/shinkansen/", text: "Shinkansen" },
@@ -36,7 +36,7 @@ export const Information = () => {
             ]
         },
         {
-            icon: "./../assets/Icons/map.png",
+            icon: "./../src/assets/Icons/map.png",
             title: "Get Bochure",
             links: [
                 { url: "https://visitgifu.com/see-do/activities-tours/", text: "Tours" },
