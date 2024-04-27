@@ -9,7 +9,7 @@ import {ExploreByInterest} from './components/ExploreByInterest';
 import {BookYourTrip} from './components/BookYourTrip';
 import {ReadyToGo} from './components/ReadyToGo';
 import {Footer} from './components/Footer';
-import './css/style.css'
+import './../src/style.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>

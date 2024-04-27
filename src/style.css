@@ -1,7 +1,7 @@
-@import 'footer.css';
-@import 'toDoStyle.css';
-@import 'normalize.css';
-@import 'nav.css';
+@import './css/footer.css';
+@import './css/toDoStyle.css';
+@import './css/normalize.css';
+@import './css/nav.css';
 
 * {
     margin: 0;
