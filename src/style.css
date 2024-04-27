@@ -62,7 +62,7 @@ body {
     display: flex;
     align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.795)),
-        url(./assets/img/tokyo-hero.jpg);
+        url(./../assets/img/tokyo-hero.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -143,7 +143,7 @@ body {
 .container__topJapan {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.63)), 
-    url(./assets/img/wallpaperflare.com_wallpaper.jpg);
+    url(./../assets/img/wallpaperflare.com_wallpaper.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -387,7 +387,7 @@ body {
     width: 100%;
     height: 40vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.449)),
-        url(./assets/img/ready.jpg);
+        url(./../assets/img/ready.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
