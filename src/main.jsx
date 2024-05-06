@@ -20,7 +20,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 function App() {
 
-    let country = 'Italy'
+    let country = prompt('Type your country')
 
     return (
         <Router>
