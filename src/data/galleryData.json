@@ -1,0 +1,56 @@
+{
+    "BrGallery" : [
+        { "img": "BR-1", "autor": "" },
+        { "img": "BR-2", "autor": "" },
+        { "img": "BR-3", "autor": "" },
+        { "img": "BR-4", "autor": "" },
+        { "img": "BR-5", "autor": "" },
+        { "img": "BR-6", "autor": "" },
+        { "img": "BR-7", "autor": "" },
+        { "img": "BR-8", "autor": "" }
+    ],
+
+    "JpGallery" : [
+        { "img": "JP-1", "autor": "Pat Kay" },
+        { "img": "JP-2", "autor": "Pat Kay" },
+        { "img": "JP-3", "autor": "Pat Kay" },
+        { "img": "JP-4", "autor": "Trevor Dobson" },
+        { "img": "JP-5", "autor": "Xuanran" },
+        { "img": "JP-6", "autor": "Pat Kay" },
+        { "img": "JP-7", "autor": "Pat Kay" },
+        { "img": "JP-8", "autor": "Pat Kay" }
+    ],
+
+    "ItGallery" : [
+        { "img": "IT-1", "autor": "" },
+        { "img": "IT-2", "autor": "" },
+        { "img": "IT-3", "autor": "" },
+        { "img": "IT-4", "autor": "" },
+        { "img": "IT-5", "autor": "" },
+        { "img": "IT-6", "autor": "" },
+        { "img": "IT-7", "autor": "" },
+        { "img": "IT-8", "autor": "" }
+    ],
+
+    "FrGallery" : [
+        { "img": "FR-1", "autor": "" },
+        { "img": "FR-2", "autor": "" },
+        { "img": "FR-3", "autor": "" },
+        { "img": "FR-4", "autor": "" },
+        { "img": "FR-5", "autor": "" },
+        { "img": "FR-6", "autor": "" },
+        { "img": "FR-7", "autor": "" },
+        { "img": "FR-8", "autor": "" }
+    ],
+
+    "PeGallery" : [
+        { "img": "PE-1", "autor": "" },
+        { "img": "PE-2", "autor": "" },
+        { "img": "PE-3", "autor": "" },
+        { "img": "PE-4", "autor": "" },
+        { "img": "PE-5", "autor": "" },
+        { "img": "PE-6", "autor": "" },
+        { "img": "PE-7", "autor": "" },
+        { "img": "PE-8", "autor": "" }
+    ]
+}

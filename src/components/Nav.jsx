@@ -1,37 +1,38 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 export const Nav = () => {
 
     const Logo = () => {
         return (
-            <div class="nav__logo">
-                <a class="link" href="#hero">
-                    <img src="./assets/Icons/Loge.png" alt="japan_tourism" class="logo" />
-                    <span class="nav__logo__span">日本観光</span>
-                </a>
+            <div className="nav__logo">
+                <Link className="link" to="/">
+                    <img src="./assets/Icons/Loge.png" alt="japan_tourism" className="logo" />
+                    <span className="nav__logo__span">日本観光</span>
+                </Link>
             </div>
         )
     };
 
-    const NavLink = ({ href, text }) => {
+    const NavLink = ({ to, text }) => {
         return (
-            <li class="nav__links__ul__li">
-                <a href={href} class="link">{text}</a>
+            <li className="nav__links__ul__li">
+                <Link to={to} className="link">{text}</Link>
             </li>
         )
     }
 
     const navLinks = [
-        { href: '#hero', text: 'Home' },
-        { href: '', text: 'Gallery' },
-        { href: '', text: 'Reviews' },
-        { href: '', text: 'About Us' },
-        { href: '', text: 'Contact' },
+        { to: '/', text: 'Home' },
+        { to: '/Gallery', text: 'Gallery' },
+        { to: '/Reviews', text: 'Reviews' },
+        { to: '/AboutUs', text: 'About Us' },
+        { to: '/Contact', text: 'Contact' },
     ]
 
-    const LanguageOption = ({ href, text }) => {
+    const LanguageOption = ({ to, text }) => {
         return (
-            <a href={href} className="link nav__language__option">{text}</a>
+            <Link to={to} className="link nav__language__option">{text}</Link>
         )
     };
 
@@ -39,23 +40,24 @@ export const Nav = () => {
 
     return (
         <>
-            <div class="container__nav">
-                <nav class="nav">
+            <div className="container__nav">
+                <nav className="nav">
                     <Logo />
-                    <ul class="nav__links__ul">
+                    <ul className="nav__links__ul">
                         {
                             navLinks.map((link, index) => {
                                 return (
-                                    <NavLink href={link.href} key={index} text={link.text}/>
+                                    <NavLink to={link.to} key={index} text={link.text}/>
                                 )
                             })
                         }
                     </ul>
-                    <div class="nav__language">
-                        <LanguageOption href="" text="EN" />
-                        <LanguageOption href="" text="ES" />
+                    <div className="nav__language">
+                        <LanguageOption to="" text="EN" />
+                        <LanguageOption to="" text="ES" />
                     </div>
                 </nav>
+
             </div>
         </>
     )

@@ -9,6 +9,7 @@
     background-color: #121212;
     transition: 0.2s;
     z-index: 1000;
+
 }
 .container__nav:hover {
     min-height: 65px;

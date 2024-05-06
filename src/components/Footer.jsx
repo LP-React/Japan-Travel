@@ -16,9 +16,9 @@ export const Footer = () => {
     const optionContact = [
         { src: "./assets/Icons/telefono.png", alt: "icon_telefono", text: "+51 000 000 000" },
         { src: "./assets/Icons/whatsapp.png", alt: "icon_whatsapp", text: "+51 000 000 000" },
-        { src: "./assets/Icons/instagram.png", alt: "icon_instagram", text: "@japan.tourism" },
-        { src: "./assets/Icons/youtube.png", alt: "icon_youtube", text: "Japan Tourism" },
-        { src: "./assets/Icons/correo-electronico.png", alt: "icon_correo", text: "jp.tourism@gmail.com" }
+        { src: "./assets/Icons/instagram.png", alt: "icon_instagram", text: "@global.tourism" },
+        { src: "./assets/Icons/youtube.png", alt: "icon_youtube", text: "Global Tourism" },
+        { src: "./assets/Icons/correo-electronico.png", alt: "icon_correo", text: "global.tourism@gmail.com" }
     ]
 
     const LinksLi = ({ href, text }) => (
@@ -56,7 +56,7 @@ export const Footer = () => {
             </footer>
 
             <div className="copyright">
-                <span>Copyright © Japan Travel by <a href="https://github.com/LP-React" target="_blank" className="copyright__github link">- LP-React -</a> . All Rights Reserved.</span>
+                <span>Copyright © Global Travel by <a href="https://github.com/LP-React" target="_blank" className="copyright__github link">- LP-React -</a> . All Rights Reserved.</span>
             </div>
         </div>
     );

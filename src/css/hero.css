@@ -1,0 +1,58 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero-japan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.795)),
+    url(./../assets/img/Japan/hero.jpg);
+}
+.hero-brazil {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.795)),
+    url(./../assets/img/Brazil/hero.jpg);
+}
+.hero-france {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.795)),
+    url(./../assets/img/France/hero.jpg);
+}
+.hero-italy {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.795)),
+    url(./../assets/img/Italy/hero.jpg);
+}
+.hero-peru {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.795)),
+    url(./../assets/img/Peru/hero.jpg);
+}
+
+.container__info {
+    margin-left: 200px;
+    width: 490px;
+    display: flex;
+    flex-flow: column wrap;
+    color: var(--darkMode);
+}
+
+.info__h1 {
+    font: normal 300 4rem/6rem Inter;
+    letter-spacing: 3px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.info__h1 span {
+    font: normal 300 9.4rem/6rem Inter;
+    letter-spacing: 10px;
+}
+
+.info__p {
+    margin: 0 100px 0 0;
+    border-top: 4px solid rgb(180, 0, 0);
+    padding: 15px 90px 0px 0px;
+    font: normal 300 1.4rem/1.7rem Inter;
+    letter-spacing: 3px;
+}

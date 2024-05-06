@@ -1,0 +1,93 @@
+.container__top {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100dvh;
+}
+
+
+/* Countries background */
+.container__top-jp {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.63)),
+        url(./../assets/img/Japan/top10-bg.jpg);
+}
+.container__top-br {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.63)),
+        url(./../assets/img/Brazil/top10-bg.jpg);
+}
+.container__top-it {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.63)),
+        url(./../assets/img/Italy/top10-bg.jpg);
+}
+.container__top-pe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.63)),
+        url(./../assets/img/Peru/top10-bg.jpg);
+}
+.container__top-fr {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.63)),
+        url(./../assets/img/France/top10-bg.jpg);
+}
+
+
+.topJapan {
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.topJapanTittle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 100px;
+}
+
+.tittle__decoration {
+    position: absolute;
+    width: 15%;
+    height: 2px;
+    background-color: var(--darkMode);
+}
+
+.tittle__decoration1 {
+    left: 0;
+}
+
+.tittle__decoration2 {
+    right: 0;
+}
+
+.tittle {
+    font-size: 3.8rem;
+    font-weight: 200;
+    color: var(--darkMode);
+}
+
+.top10-slider>div {
+    width: 100%;
+    height: 600px;
+}
+
+.topJapan__section {
+    width: 90%;
+    height: 100%;
+}
+
+.section__img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s;
+    filter: brightness(80%);
+}
+
+.section__img:hover {
+    filter: brightness(100%);
+}

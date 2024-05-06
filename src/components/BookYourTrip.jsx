@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const BookYourTrip = () => {
+export const BookYourTrip = ({country}) => {
     return (
         <div className='container__bookTrip'>
             <div className='bookTrip'>
                 <div className='bookTrip__form'>
-                    <h3 className='bookTrip__form__tittle'>Book Your <br /> Trip To Japan!</h3>
+                    <h3 className='bookTrip__form__tittle'>Book Your <br /> Trip To {country} !</h3>
 
                     <form action='' className='bookTrip__form__form' id='formClient'>
                         <div className='form__item form__input__name'>
@@ -34,7 +34,7 @@ export const BookYourTrip = () => {
                 </div>
 
                 <div className='bookTrip__img'>
-                    <img src='./assets/img/nook.jpg' alt='' />
+                    <img src={`./assets/img/${country}/nook.jpg`} alt='' />
                 </div>
             </div>
         </div>

@@ -1,0 +1,38 @@
+.readyToGo {
+    margin: 200px 0px;
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.readyToGo-jp {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.449)),
+    url(./../assets/img/Japan/ready.jpg);
+}   
+.readyToGo-br {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.449)),
+    url(./../assets/img/Brazil/ready.jpg);
+}   
+.readyToGo-pe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.449)),
+    url(./../assets/img/Peru/ready.jpg);
+}   
+.readyToGo-it {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.449)),
+    url(./../assets/img/Italy/ready.jpg);
+}   
+.readyToGo-fr {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.449)),
+    url(./../assets/img/France/ready.jpg);
+}   
+.readyToGo span {
+    font-size: 2.5rem;
+    color: var(--darkMode);
+    font-weight: 200;
+    letter-spacing: 3px;
+}

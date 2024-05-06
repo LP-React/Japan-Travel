@@ -1,0 +1,43 @@
+
+/* Info */
+
+.container__information {
+    background-color: #121212;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.information {
+    width: 75%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.information__option {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.information__option img {
+    width: 65px;
+}
+
+.information__option__title {
+    color: var(--tittleColor);
+    font-weight: 400;
+    margin: 10px 0px 5px;
+}
+
+.information__option__link {
+    margin: 2px 0px;
+    font-weight: 200;
+}
+

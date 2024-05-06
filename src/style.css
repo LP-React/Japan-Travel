@@ -1,13 +1,20 @@
 @import './css/footer.css';
-@import './css/toDoStyle.css';
 @import './css/normalize.css';
 @import './css/nav.css';
+@import './css/aboutUs.css';
+@import './css/gallery.css';
+@import './css/reviews.css';
+@import './css/top10.css';
+@import './css/hero.css';
+@import './css/readyToGo.css';
+@import './css/information.css';
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
     font-family: inter;
+
 }
 
 /* Root */
@@ -17,11 +24,14 @@
     --primaryColor: rgb(255, 94, 94);
     --tittleColor: rgb(250, 53, 53);
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: rgb(0, 0, 0);
+
 }
 
 /* Scroll Bar */
@@ -29,14 +39,16 @@ body {
 ::-webkit-scrollbar {
     width: 10px;
 }
+
 ::-webkit-scrollbar-track {
-    background-color: #363636;
+    background-color: #222222;
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: #dadada;
     border-radius: 50px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
     background-color: #a7a7a7;
     border-radius: 50px;
@@ -54,193 +66,13 @@ body {
     color: var(--primaryColor);
 }
 
-/* Hero */
-
-.hero {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.199), rgba(0, 0, 0, 0.795)),
-        url(./../assets/img/tokyo-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.container__info {
-    margin-left: 200px;
-    width: 490px; 
-    display: flex;
-    flex-flow: column wrap;
-    color: var(--darkMode);
-}
-
-.info__h1 {
-    font: normal 300 4rem/6rem Inter;
-    letter-spacing: 3px;
-    padding: 0px;
-    margin: 0px;
-}
-
-.info__h1 span {
-    font: normal 300 9.4rem/6rem Inter;
-    letter-spacing: 10px;
-}
-
-.info__p {
-    margin: 0 100px 0 0;
-    border-top: 4px solid rgb(180, 0, 0);
-    padding: 15px 90px 0px 0px;
-    font: normal 300 1.4rem/1.7rem Inter;
-    letter-spacing: 3px;
-}
-
-/* Info */
-
-.container__information {
-    background-color: #121212;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px 0px;
-}
-
-.information {
-    width: 75%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-}
-
-.information__option {
-    height: 220px;
-    width: 220px;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.information__option img {
-    width: 65px;
-}
-
-.information__option__title {
-    color: var(--tittleColor);
-    font-weight: 400;
-    margin: 10px 0px 5px;
-}
-
-.information__option__link {
-    margin: 2px 0px;
-    font-weight: 200;
-}
-
-/* Top 10 on Japan */
-
-.container__topJapan {
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.63)), 
-    url(./../assets/img/wallpaperflare.com_wallpaper.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.topJapan {
-    width: 100%;
-    padding: 100px 0px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-}
-.topJapanTittle {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.tittle__decoration {
-    position: absolute;
-    width: 15%;
-    height: 2px;
-    background-color: var(--darkMode);
-}
-.tittle__decoration1 {
-    left: 0;
-}
-.tittle__decoration2 {
-    right: 0;
-}
-.tittle {
-    font-size: 3.8rem;
-    font-weight: 200;
-    color: var(--darkMode);
-}
-
-.topJapan__section {
-    display: grid;
-    width: 90%;
-    max-width: 1500px;
-    grid-template-columns: 1fr 1.2fr 1.8fr 1.2fr 1fr;
-    grid-template-rows: 550px;
-    gap: 25px;
-    align-items: center;
-    justify-items: center;
-    margin: 70px 0px;
-}
-.section__decoration {
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    background-color: #131313;
-    border-bottom:  solid 5px rgb(189, 0, 0);
-    border-top: solid 5px rgb(186, 0, 0);
-}
-.section {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 50;
-    width: 100%;
-
-}
-
-.section__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 25px;
-    transition: 0.5s;
-    filter: brightness(80%);
-}
-.section__img:hover {
-    filter: brightness(120%);
-}
-.section1 {
-    height: 100%;
-    width: 80%;
-}
-.section2 {
-    height: 80%;
-    width: 85%;
-}
-.section3 {
-    height: 60%;
-    width: 85%;
-}
-
 /* Explore by interest */
 
 .container__exploreInterest {
     width: 100%;
     padding: 20px 0px;
 }
+
 .exploreInterest {
     width: 100%;
     padding: 200px 0px;
@@ -249,21 +81,25 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
+
 .decoration {
     position: absolute;
     height: 4px;
     border-radius: 30px;
     background-color: rgb(155, 0, 0);
 }
+
 .decoration1 {
     margin-top: 50px;
     width: 30%;
 }
+
 .decoration2 {
     margin-top: 80px;
     background-color: rgb(63, 63, 63);
     width: 35%;
 }
+
 .decoration3 {
     margin-top: 110px;
     width: 40%;
@@ -304,12 +140,9 @@ body {
 
 .exploreInterest__nav__options__li:hover {
     background-color: rgb(173, 19, 19);
+    cursor: pointer;
 }
 
-.exploreInterest__link {
-    text-decoration: none;
-    color: var(--darkMode);
-}
 
 .exploreInterest__gallery {
     width: 45%;
@@ -321,15 +154,17 @@ body {
     justify-content: center;
     position: relative;
 }
+
 .exploreInterest__gallery__image {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
     z-index: 100;
     border-radius: 20px;
     overflow: hidden;
     background-color: black;
     transition: .3s;
 }
+
 .exploreInterest__gallery__image img {
     width: 100%;
     height: 100%;
@@ -337,10 +172,12 @@ body {
     transition: .3s;
     filter: brightness(80%);
 }
+
 .exploreInterest__gallery__image img:hover {
     filter: brightness(100%);
 }
-.exploreInterest__gallery__image:hover{
+
+.exploreInterest__gallery__image:hover {
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
 
 }
@@ -351,7 +188,7 @@ body {
     height: 100%;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 10;
 }
 
@@ -363,9 +200,9 @@ body {
     border-radius: 50%;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 20;
-  
+
 }
 
 .background__image {
@@ -375,33 +212,7 @@ body {
     z-index: 30;
     left: 50%;
     top: 50%;
-    transform: translate(-65%,-40%);
-}
-
-
-
-/* Ready to Go */
-
-.readyToGo {
-    margin: 200px 0px;
-    width: 100%;
-    height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.449)),
-        url(./../assets/img/ready.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.readyToGo span {
-    font-size: 2.5rem;
-    color: var(--darkMode);
-    font-weight: 200;
-    letter-spacing: 3px;
+    transform: translate(-65%, -40%);
 }
 
 /* Book Your Trip */
@@ -410,6 +221,7 @@ body {
     width: 100%;
     margin: 120px 0px;
 }
+
 .bookTrip {
     width: 100%;
     display: flex;
@@ -417,6 +229,7 @@ body {
     justify-content: end;
     align-items: center;
 }
+
 .bookTrip__form {
     width: 35%;
     display: flex;
@@ -424,9 +237,11 @@ body {
     justify-content: center;
     align-content: center;
 }
+
 .bookTrip__form__form {
     width: 100%;
 }
+
 .bookTrip__form__tittle {
     font-size: 2.8rem;
     color: var(--darkMode);
@@ -436,7 +251,9 @@ body {
     margin-bottom: 30px;
 }
 
-.form__item input , select , .form__button{
+.form__item input,
+select,
+.form__button {
     padding: 18px 22px;
     width: 75%;
     margin: 16px 0px;
@@ -447,9 +264,10 @@ body {
     transition: 0.3s;
 }
 
-.form__item select{
+.form__item select {
     background-color: rgb(0, 0, 0);
 }
+
 .icon__container {
     width: 50px;
     height: 100%;
@@ -459,9 +277,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .icon__container i {
     font-size: 50px;
 }
+
 .form__item::placeholder {
     color: rgb(90, 90, 90);
     letter-spacing: 2px;
@@ -474,12 +294,14 @@ body {
     border: 2px solid rgb(207, 207, 207);
 
 }
+
 .form__button {
     background-color: rgb(141, 0, 0);
     outline: none;
     border: none;
     cursor: pointer;
 }
+
 .form__button:hover {
     background-color: rgb(206, 0, 0);
 }
@@ -493,6 +315,7 @@ body {
     border-top: 5px solid rgb(143, 0, 0);
     border-bottom: 5px solid rgb(122, 0, 0);
 }
+
 .bookTrip__img img {
     transform: scaleX(-1);
     height: 90vh;
@@ -500,25 +323,30 @@ body {
 }
 
 
-@media screen and (max-width: 1100px ) {
+@media screen and (max-width: 1100px) {
+
     /* Hero Mobile */
     .hero {
         justify-content: center;
     }
-    .container__info{
+
+    .container__info {
         margin: 0px;
         width: 100%;
         max-width: 350px;
         align-items: center;
         text-align: center;
     }
+
     .info__h1 {
         font: normal 300 1.5rem/3.2rem inter;
     }
+
     .info__h1 span {
         font: normal 300 5.4rem/3rem Inter;
         letter-spacing: 8px;
     }
+
     .info__p {
         margin: 0px;
         padding: 10px 0px 0px 0;
@@ -530,49 +358,62 @@ body {
     .information {
         width: 90%;
     }
+
     .information__option {
         width: 160px;
         height: 180px;
     }
+
     .information__option img {
         width: 50px;
     }
+
     .information__option__tittle {
         font-weight: 300;
         margin: 8px 0px 0px;
     }
+
     /* Top 10 ON Japan mobile*/
     .topJapan {
         padding: 40px 0px;
     }
-    .tittle__decoration{
+
+    .tittle__decoration {
         width: 5%;
     }
+
     .tittle {
         font: normal 200 2rem/2rem Inter;
     }
+
     .topJapan__section {
         margin: 20px 0px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 300px);
         gap: 15px;
     }
+
     .section__decoration {
         width: 0%;
     }
+
     .section {
         max-width: 300px;
     }
+
     .section_img {
         border-radius: 15px;
     }
+
     .section1 {
         width: 100%;
     }
+
     .section2 {
         height: 100%;
         width: 100%;
     }
+
     .section3 {
         height: 100%;
         width: 100%;
