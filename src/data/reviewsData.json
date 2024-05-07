@@ -39,153 +39,153 @@
     ],
     "Italy": [
         {
-            "photo": "",
+            "photo": "user1",
             "nameUser": "Elijah Ochoa",
-            "review": "",
+            "review": "Italy's charm left me speechless. From the cobblestone streets of Rome to the picturesque canals of Venice, every corner exudes history and beauty.",
             "stars": 4
         },
         {
-            "photo": "",
+            "photo": "user2",
             "nameUser": "Colin Thomson",
-            "review": "",
+            "review": "Italy's rich culture and delectable cuisine stole my heart. Exploring ancient ruins and indulging in authentic pasta dishes made for an unforgettable journey.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user3",
             "nameUser": "Christine Howell",
-            "review": "",
+            "review": "Italy's breathtaking landscapes and warm hospitality made me feel at home. From the rolling hills of Tuscany to the stunning Amalfi Coast, every moment was a delight.",
             "stars": 4
         },
         {
-            "photo": "",
+            "photo": "user4",
             "nameUser": "Shauna Lambert",
-            "review": "",
+            "review": "Italy's vibrant cities and serene countryside offer a perfect blend of adventure and relaxation. Exploring historic landmarks and savoring gelato made for an unforgettable trip.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user5",
             "nameUser": "Raymond Wise",
-            "review": "",
+            "review": "Italy's timeless beauty and romantic ambiance captured my soul. Wandering through charming villages and admiring iconic landmarks felt like a dream come true.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user6",
             "nameUser": "Dominic Bentley",
-            "review": "",
+            "review": "Italy's enchanting atmosphere and rich history left me in awe. From the majestic Colosseum to the iconic Leaning Tower of Pisa, every sight was a masterpiece.",
             "stars": 5
         }
     ],
     "Peru": [
         {
-            "photo": "",
+            "photo": "user1",
             "nameUser": "Aidan Lara",
-            "review": "",
+            "review": "Peru's ancient wonders and vibrant culture left me spellbound. Exploring Machu Picchu and tasting authentic Peruvian cuisine were the highlights of my trip.",
             "stars": 4
         },
         {
-            "photo": "",
+            "photo": "user2",
             "nameUser": "Diana Morales",
-            "review": "",
+            "review": "Peru's breathtaking landscapes and fascinating history made for an unforgettable adventure. Hiking through the Sacred Valley and experiencing the magic of Machu Picchu were truly unforgettable.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user3",
             "nameUser": "Reuben Horn",
-            "review": "",
+            "review": "Peru's awe-inspiring landscapes and warm hospitality stole my heart. From exploring ancient ruins to sampling delicious ceviche, every moment was a treasure.",
             "stars": 4
         },
         {
-            "photo": "",
+            "photo": "user4",
             "nameUser": "Adem Lozano",
-            "review": "",
+            "review": "Peru's mystical allure and vibrant culture captivated my soul. Trekking to Machu Picchu and exploring the Amazon Rainforest were experiences I'll cherish forever.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user5",
             "nameUser": "Levi Shaw",
-            "review": "",
+            "review": "Peru's natural beauty and rich heritage made for an unforgettable journey. Exploring the Andean highlands and meeting the locals left a lasting impression.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user6",
             "nameUser": "Yahya Thompson",
-            "review": "",
+            "review": "Peru's majestic landscapes and ancient ruins left me in awe. From the mysterious Nazca Lines to the towering peaks of the Andes, every moment was filled with wonder.",
             "stars": 5
         }
     ],
     "France": [
         {
-            "photo": "",
+            "photo": "user1",
             "nameUser": "Andreas Boyer",
-            "review": "",
+            "review": "France's timeless elegance and romantic ambiance stole my heart. Exploring the charming streets of Paris and indulging in gourmet cuisine were the highlights of my trip.",
             "stars": 4
         },
         {
-            "photo": "",
+            "photo": "user2",
             "nameUser": "Lily-Mae Mcneil",
-            "review": "",
+            "review": "France's picturesque landscapes and rich history left me enchanted. From strolling along the Seine River to visiting iconic landmarks like the Eiffel Tower, every moment was magical.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user3",
             "nameUser": "Alyssia Merritt",
-            "review": "",
+            "review": "France's cultural treasures and culinary delights made for a perfect getaway. Exploring historic châteaux and savoring croissants in quaint cafés were experiences I'll never forget.",
             "stars": 4
         },
         {
-            "photo": "",
+            "photo": "user4",
             "nameUser": "Jack Barker",
-            "review": "",
+            "review": "France's vibrant culture and artistic heritage left me inspired. Exploring world-class museums and wandering through charming villages were the highlights of my trip.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user5",
             "nameUser": "Leonardo Michael",
-            "review": "",
+            "review": "France's romantic charm and diverse landscapes captivated my imagination. From the sun-kissed beaches of the French Riviera to the snow-capped peaks of the Alps, every moment was a delight.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user6",
             "nameUser": "Logan Wyatt",
-            "review": "",
+            "review": "France's unparalleled beauty and cultural richness made for an unforgettable journey. Exploring medieval castles and sampling fine wines in the countryside were experiences I'll cherish forever.",
             "stars": 5
         }
     ],
     "Brazil": [
         {
-            "photo": "",
+            "photo": "user1",
             "nameUser": "Aidan Lara",
-            "review": "",
+            "review": "Brazil's infectious energy and stunning natural beauty left me mesmerized. From dancing samba in Rio de Janeiro to exploring the Amazon Rainforest, every moment was an adventure.",
             "stars": 4
         },
         {
-            "photo": "",
+            "photo": "user2",
             "nameUser": "Diana Morales",
-            "review": "",
+            "review": "Brazil's vibrant culture and warm hospitality made me feel right at home. Exploring the bustling streets of São Paulo and relaxing on the pristine beaches of Bahia were the highlights of my trip.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user3",
             "nameUser": "Reuben Horn",
-            "review": "",
+            "review": "Brazil's diverse landscapes and lively atmosphere captivated my senses. From exploring the majestic Iguazu Falls to savoring traditional feijoada, every experience was unforgettable.",
             "stars": 4
         },
         {
-            "photo": "",
+            "photo": "user4",
             "nameUser": "Adem Lozano",
-            "review": "",
+            "review": "Brazil's enchanting beaches and colorful festivals stole my heart. Dancing in the streets during Carnaval and lounging on the shores of Copacabana were experiences I'll never forget.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user5",
             "nameUser": "Levi Shaw",
-            "review": "",
+            "review": "Brazil's natural wonders and vibrant culture left me in awe. Exploring the lush rainforests of the Amazon and witnessing the breathtaking beauty of Rio de Janeiro were truly unforgettable.",
             "stars": 5
         },
         {
-            "photo": "",
+            "photo": "user6",
             "nameUser": "Yahya Thompson",
-            "review": "",
+            "review": "Brazil's captivating landscapes and lively music scene made for an unforgettable journey. From exploring historic cities like Salvador to indulging in delicious street food, every moment was a delight.",
             "stars": 5
         }
     ]

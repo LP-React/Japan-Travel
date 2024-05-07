@@ -1,29 +1,32 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export const Footer = () => {
 
     const optionLinks = [
-        { href: "#hero", text: "Home" },
-        { href: "", text: "Culture" },
-        { href: "", text: "Events" },
-        { href: "", text: "Reviews" },
-        { href: "", text: "Tours" },
-        { href: "", text: "Gallery" },
-        { href: "", text: "About Us" },
-        { href: "", text: "FAQ" },
+        { href: '/', text: 'Home' },
+        /*      
+                { href: ', text: 'Culture' },
+                { href: ', text: 'Tours' },
+                { href: ', text: 'FAQ' },
+                { href: ', text: 'Events' },
+        */
+        { href: '/Reviews', text: 'Reviews' },
+        { href: '/Gallery', text: 'Gallery' },
+        { href: '/AboutUs', text: 'About Us' },
     ]
 
     const optionContact = [
         { src: "./assets/Icons/telefono.png", alt: "icon_telefono", text: "+51 000 000 000" },
         { src: "./assets/Icons/whatsapp.png", alt: "icon_whatsapp", text: "+51 000 000 000" },
-        { src: "./assets/Icons/instagram.png", alt: "icon_instagram", text: "@global.tourism" },
-        { src: "./assets/Icons/youtube.png", alt: "icon_youtube", text: "Global Tourism" },
-        { src: "./assets/Icons/correo-electronico.png", alt: "icon_correo", text: "global.tourism@gmail.com" }
+        { src: "./assets/Icons/instagram.png", alt: "icon_instagram", text: "@global.travel" },
+        { src: "./assets/Icons/youtube.png", alt: "icon_youtube", text: "Global-Travel" },
+        { src: "./assets/Icons/correo-electronico.png", alt: "icon_correo", text: "global.travel@gmail.com" }
     ]
 
     const LinksLi = ({ href, text }) => (
         <li className="links__li" >
-            <a href={href} className="links__li__a link">{text}</a>
+            <Link to={href} className="links__li__a link">{text}</Link>
         </li>
     )
 
@@ -56,7 +59,7 @@ export const Footer = () => {
             </footer>
 
             <div className="copyright">
-                <span>Copyright © Global Travel by <a href="https://github.com/LP-React" target="_blank" className="copyright__github link">- LP-React -</a> . All Rights Reserved.</span>
+                <span>Copyright © Global-Travel by <a href="https://github.com/LP-React" target="_blank" className="copyright__github link">- LP-React -</a> . All Rights Reserved.</span>
             </div>
         </div>
     );

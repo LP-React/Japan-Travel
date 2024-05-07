@@ -8,6 +8,7 @@
 @import './css/hero.css';
 @import './css/readyToGo.css';
 @import './css/information.css';
+@import './css/selectCountry.css';
 
 * {
     margin: 0;

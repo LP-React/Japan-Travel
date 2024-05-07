@@ -4,7 +4,6 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-
 }
 .aboutUs_title_container {
     height: 100dvh;
@@ -17,15 +16,19 @@
     url(./../assets/img/airplane-banner.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 .aboutUs_title {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 200;
     padding-bottom: 2px;
     border-bottom: 1px solid white;
 }
 .aboutUs_subtitle {
     font-weight: 200;
+    width: 60%;
+    font-size: 1.6rem;
+    text-align: center;
 }
 .aboutUs_text {
     width: 60%;
@@ -43,6 +46,7 @@
     width: 80%;
     display: flex;
     justify-content: space-evenly;
+    margin: 0px 0px 50px;
 }
 .vision, .mision {
     text-align: center;
@@ -50,13 +54,14 @@
     height: 400px;
 }
 .mision_vision_title {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 300;
     margin: 20px 0;
     letter-spacing: 2px;
 }
 .mision_vision_text {
-    font-size: 1.3rem;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 2px;
     margin: 20px 0;
 }

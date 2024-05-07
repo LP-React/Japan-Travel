@@ -5,10 +5,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.137)),
-    url(./../assets/img/Japan/bg-1.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.reviews__container__Japan {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.137)),
+    url(./../assets/img/Japan/bg-1.jpg);
+}
+.reviews__container__Brazil {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.137)),
+    url(./../assets/img/Brazil/bg-1.jpg);
+}
+.reviews__container__Italy {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.137)),
+    url(./../assets/img/Italy/bg-1.jpg);
+}
+.reviews__container__France {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.137)),
+    url(./../assets/img/France/bg-1.jpg);
+}
+.reviews__container__Peru {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.137)),
+    url(./../assets/img/Peru/bg-1.jpg);
 }
 
 .reviews {

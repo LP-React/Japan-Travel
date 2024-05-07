@@ -7,8 +7,8 @@ export const Nav = () => {
         return (
             <div className="nav__logo">
                 <Link className="link" to="/">
-                    <img src="./assets/Icons/Loge.png" alt="japan_tourism" className="logo" />
-                    <span className="nav__logo__span">日本観光</span>
+                    <img src="./assets/Icons/Loge.png" alt="Global-Travel" className="logo" />
+                    <span className="nav__logo__span">Global-Travel</span>
                 </Link>
             </div>
         )
@@ -27,7 +27,7 @@ export const Nav = () => {
         { to: '/Gallery', text: 'Gallery' },
         { to: '/Reviews', text: 'Reviews' },
         { to: '/AboutUs', text: 'About Us' },
-        { to: '/Contact', text: 'Contact' },
+        /* { to: '/Contact', text: 'Contact' }, */
     ]
 
     const LanguageOption = ({ to, text }) => {
